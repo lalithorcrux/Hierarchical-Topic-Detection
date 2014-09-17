@@ -209,7 +209,7 @@ void ClusterTopics::CalculateScore()
 
     score_per_doc.clear();
     
-    // Expectation-Maximization Model done here
+    // Expectation-Maximization Model done here...l need to be tweaked
     for(; it != term_freq.end(); it++)
     {
         a = doc_freq[it->first] / (double)sum_doc_freqs;
