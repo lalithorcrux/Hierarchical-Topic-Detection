@@ -104,8 +104,7 @@ class Parser
 {
     public:
         StopWordsTrie sw_trie;
-        int bufp;
-        int buflen;
+        int bufp,int buflen;
         char* buf;
         char* corpus_dir;
         char* out_dir;

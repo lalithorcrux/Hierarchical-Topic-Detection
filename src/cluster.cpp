@@ -16,7 +16,6 @@ using namespace rapidjson;
 class Cluster
 {
     public:
-
         int id;
         vector<int> did;
 };
@@ -297,6 +296,6 @@ int main(int argc, char* argv[])
 
     HC handler(argv[1], argv[2], clt, jsonhandler);
     handler.Run();
-    handler.PrintTree();
+    handler.PrintTree(); 
     return 0;
 }
